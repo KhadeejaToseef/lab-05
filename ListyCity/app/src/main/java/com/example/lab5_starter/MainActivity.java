@@ -106,6 +106,7 @@ public class MainActivity extends AppCompatActivity implements CityDialogFragmen
 //        cityArrayList.add(m2);
 //        cityArrayAdapter.notifyDataSetChanged();
 //    }
+
     public void deleteCity(City city) {
         citiesRef.document(city.getName()).delete();
     }
