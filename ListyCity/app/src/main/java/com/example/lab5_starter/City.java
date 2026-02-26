@@ -9,6 +9,9 @@ public class City implements Serializable {
     private String name;
     private String province;
 
+    public City() {} // Required empty constructor for Firestore
+
+
     // constructor
     public City(String name, String province) {
         this.name = name;
